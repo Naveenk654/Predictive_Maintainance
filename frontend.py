@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_URL = "https://predictive-maintainance-5.onrender.com/predict"
+API_URL = "https://predictive-maintainance-6.onrender.com/predict"
 
 st.set_page_config(page_title='Machine Predictive Maintenance Classification')
 st.title('Machine Predictive Maintenance Classification')
