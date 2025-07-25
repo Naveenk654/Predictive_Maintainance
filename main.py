@@ -26,7 +26,7 @@ def pred_failure_type(input_data: UserInput):
     input_df = pd.DataFrame([input_data.dict(by_alias=True)])
 
     #
-    prediction = int(model.predict(input_df)[0])
+    prediction = model.predict(input_df)[0]
  
     
     failure_label = str(label_encoder.inverse_transform([prediction])[0])
